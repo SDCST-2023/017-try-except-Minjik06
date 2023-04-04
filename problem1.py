@@ -49,6 +49,8 @@ while True:
         c=int(c)
         d=((-1*b)+math.sqrt(math.pow(b,2)-(4*(a)*(c))))/(2*a)
         e=((-1*b)-math.sqrt(math.pow(b,2)-(4*(a)*(c))))/(2*a)
+        d=round(d,2)
+        e=round(e,2)
         print(f"The roots are {d} is {e}")
         break
     except Exception as err:
